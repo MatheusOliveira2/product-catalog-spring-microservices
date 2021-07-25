@@ -13,6 +13,6 @@ services:
 
   redis:
     container_name: "redis"
-    image: redis:3.0.1
+    image: redis:6.2.5
     ports:
-      - 6379:6379
+      - 6380:6380
